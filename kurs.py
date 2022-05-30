@@ -67,3 +67,9 @@
 # obim=str1+str2+str3
 
 # print("obim je: ", obim)
+
+galon=4.54
+litri=int(input("Unesite broj litara: "))
+
+sum=litri*galon
+print(sum)
