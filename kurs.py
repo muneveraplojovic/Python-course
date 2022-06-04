@@ -68,8 +68,8 @@
 
 # print("obim je: ", obim)
 
-galon=4.54
-litri=int(input("Unesite broj litara: "))
+# galon=4.54
+# litri=int(input("Unesite broj litara: "))
 
-sum=litri*galon
-print(sum)
+# sum=litri*galon
+# print(sum)
