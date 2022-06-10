@@ -9,6 +9,28 @@
 # type
 
 
+# Operatori
+# -aritmeticki operatori (+-*/%**)
+#- relacijski-rezultat je uvek bool- (<><=>=, ==, != )
+# - operatori za dodelu vrednosti - += -=
+
+#Logicki operator - true/false
+# and-true if both of them are true, za povezivanje izraza
+# or- true if either one of them are true, 
+# not - not true-false, not false-true, 
+
+# Metode stringa:
+# -indeksiranje 0123456789
+# -indeksiranje sa minusom -1 -2 -3 -4 -5 -6 -7 -8 -9 (zadnji broj ima indeks -1)
+# -replace
+# -length len - vraca druzinu stringa, ne funkcionise kod brojeva
+# -upper
+
+# if statement/condition
+# else statement
+#proveravamo povrsine kvadrata i pravougaonika uz pomoc if and else statement 
+
+
 # brojgodina = 17
 # moj_broj = 5.78
 # print(brojgodina)
@@ -36,16 +58,6 @@
 # print(x)
 # print(z)
 # print(y)
-
-# Operatori
-# -aritmeticki operatori (+-*/%**)
-#- relacijski-rezultat je uvek bool- (<><=>=, ==, != )
-# - operatori za dodelu vrednosti - += -=
-
-#Logicki operator - true/false
-# and-true if both of them are true, za povezivanje izraza
-# or- true if either one of them are true, 
-# not - not true-false, not false-true, 
 
 
 # obim i povrsina kruga
@@ -77,6 +89,10 @@
 
 # ------------------------------------------------------------------------------
 
+# skola= "gimnazija"
+# rezultat= skola.replace("g", "G")
+# print(rezultat)
+
 # x=int(input("unesite broj: "))
 # y=int(input("unesite broj: "))
 
@@ -105,24 +121,56 @@
 # print(skola[2: :2])
 # # print(skola[ : :-1]) ispise rec gimnazija unazad
 
-
-
-# Metode stringa:
-# -indeksiranje 0123456789
-# -indeksiranje sa minusom -1 -2 -3 -4 -5 -6 -7 -8 -9 (zadnji broj ima indeks -1)
-# -replace
-# skola= "gimnazija"
-# rezultat= skola.replace("g", "G")
-# print(rezultat)
-# # -length len - vraca druzinu stringa, ne funkcionise kod brojeva
-# -upper
-
 # rec= str(input("unesite rec: "))
 # rez= rec.replace(rec[0], rec[0].upper())
 # print(rez)
 
-
-
-
-
 # ----------------------------------------------------------------------------------
+
+# broj1 = 5
+# broj2 = 6
+# if broj1 > broj2:
+#     print("true")
+# else:
+#     print("false")
+# indentacija-odvajanje spejsovima
+# else statement - sve ostalo
+# -------------------------
+# broj=float(input("Unesite broj: "))
+
+# if broj > 0:
+#     print("Broj je pozitivan!")
+# else:
+#     print("Broj je negativan!")
+
+
+# dve tacke obavezne posle if i else-a
+# ------------------------------
+# a=
+# b= 
+# a=b izracunati povrsinu kvadrata a2
+# a!=povrsina pravougaonika a*b
+
+# stranica_a=float(input("Unesite stranicu a: "))
+# stranica_b=float(input("Unesite stranicu b: "))
+
+# if stranica_a==stranica_b:
+#     print("Povrsina kvadrata je: ", stranica_a**2)
+# else:
+#     print("Povrsina pravougaonika je: ", stranica_a*stranica_b)
+
+# --------------
+# proveriti da li je uneta rec polindrom
+
+# palindrom=str(input("Unesite neku rec: "))
+
+# if palindrom == palindrom[ : :-1]:
+#     print("Rec je palindrom")
+# else:
+#     print("Rec nije palindrom")
+
+ocena=int(input("unesite ocenu: "))
+
+if ocena ==5:
+    print("odlican 5")
+elif 
