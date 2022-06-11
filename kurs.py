@@ -169,8 +169,8 @@
 # else:
 #     print("Rec nije palindrom")
 
-ocena=int(input("unesite ocenu: "))
+# ocena=int(input("unesite ocenu: "))
 
-if ocena ==5:
-    print("odlican 5")
-elif 
+# if ocena ==5:
+#     print("odlican 5")
+# elif 
