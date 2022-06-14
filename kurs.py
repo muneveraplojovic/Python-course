@@ -173,4 +173,174 @@
 
 # if ocena ==5:
 #     print("odlican 5")
-# elif 
+# # elif 
+# --------------------------------------------------------------------------------
+
+# manje od 6 godina-dete, izmedju 7-18 - adolescent, vise od 18-odrasla osoba
+
+# godine=int(input("Molimo vas unesite koliko imate godina: "))
+
+# if godine <= 6:
+#     print("Ti si dete!")
+# elif godine>=7 and godine<=18:
+#     print("Ti si adolescent!")
+# elif godine>18:
+#     print("Ti si odrasla osoba!")
+    
+# -------------------------------
+
+# proveriti da li je uneti broj paran ili neparan
+
+# broj=int(input("Unesite neki broj: "))
+
+# if broj%2==0:
+#     print("Broj je paran!")
+# else:
+#     print("Broj je neparan!")
+
+# -------------------------------
+
+# kada unesemo broj treba da nam prikaze mesec
+
+# broj=int(input("Unesite neki broj od 1 do 12: "))
+
+# if broj==1:
+#     print("Januar!")
+# elif broj==2:
+#     print("Februar!")
+# elif broj==3:
+#     print("Mart!")
+# elif broj==4:
+#     print("April!")
+# elif broj==5:
+#     print("Maj!")
+# elif broj==6:
+#     print("Jun!")
+# elif broj==7:
+#     print("Jul!")
+# elif broj==8:
+#     print("Avgust!")
+# elif broj==9:
+#     print("Septembar!")
+# elif broj==10:
+#     print("Oktobar!")
+# elif broj==11:
+#     print("Novembar!")
+# elif broj==12:
+#     print("Decembar!")
+
+# ------------------------------
+
+# kalkulator
+
+# broj_1=int(input("Unesite broj: "))
+# broj_2=int(input("Unesite broj: "))
+# operacija=str(input("Izaberite operaciju sabiranja, oduzimanja, mnozenja ili deljenja: "))
+
+# if operacija=="+":
+#     print(broj_1+broj_2)
+# elif operacija=="-":
+#     print(broj_1-broj_2)
+# elif operacija=="*":
+#     print(broj_1*broj_2)
+# elif operacija=="/":
+#     print(broj_1/broj_2)
+
+# --------------------------------
+
+# Homework 1
+
+# rec=str(input("Unesite neku rec: "))
+# uneta_rec=rec.lower()
+# print(uneta_rec)
+# brojac=0
+# vokali=["a","e","i","o","u"]
+
+# for sent in uneta_rec:
+#     if sent in vokali:
+#         brojac=brojac+1
+
+# print("Broj samoglasnika u reci je:", brojac)
+
+
+# Homework 2
+
+# print("--------------------------")
+
+# broj=int(input("Unesite neki broj: "))
+
+# if broj%6==0:
+# if broj%2==0 and broj%3==0:
+#     print("Broj je deljiv sa 6")
+# else:
+#     print("Broj nije deljiv sa 6")
+
+#-------------------------------------------------------------------------------
+
+# rec=str(input("Unesite neku rec: "))
+
+# if "a" in rec or "e" in rec or "i" in rec:
+#     print("Nalazi se ")
+# else:
+#     print("Ne nalazi se ")
+
+# --------------------------
+
+# pretvaranje jednog tipa podatka u drugi
+# var=6.45
+# print(int(var))
+# print(str(var))
+# print(bool(var))
+
+# print(type(var)) - proveravanje tipa 
+# python casting on w3 school
+# ------------------------------
+
+# unesemo tri stranice i proverimo da li je trougao jednakostranican jedankokraki i da li uopste postoji 
+
+# stranica_a=int(input("Unesite stranicu a: "))
+# stranica_b=int(input("Unesite stranicu b: "))
+# stranica_c=int(input("Unesite stranicu c: "))
+
+    
+# if (stranica_a+stranica_b)>stranica_c:
+#     print("Trougao postoji!") 
+#     if stranica_a==stranica_b==stranica_c:
+#         print("Jedankostranicni!")
+#     elif stranica_a!=stranica_b!=stranica_c:
+#         print("Raznostrani")
+#     elif (stranica_a==stranica_b)!=stranica_c or (stranica_a==stranica_c)!=stranica_b or (stranica_c==stranica_b)!=stranica_a:
+#         print("Jednakokraki")
+# else:
+#     print("Trougao ne postoji")
+    
+#---------------------------------------
+
+# uneti rec putem terminala, da li je prvo pocetno slovo veliko, ako nije da se ispise
+# rez= rec.replace(rec[0], rec[0].upper())
+
+
+
+# rec=str(input("Unesite neku rec: "))
+
+# if rec[0]==rec[0].upper():
+#     print("uneli ste tacno")
+# else: 
+#     rec=rec.replace(rec[0], rec[0].upper())
+#     print(rec)
+
+# ------------------------------------
+# uneti br putem terminala, 3-fizz, 5-buzz, 3,5-fizzbuzz, ukoliko nije deljiv ispise samo taj broj
+
+# broj=int(input("Unesite neki broj: "))
+
+# if broj%3==0 and broj%5==0:
+#         print ("FIZZBUZZ")
+# elif broj%3==0:
+#     print("FIZZ")
+# elif broj%5==0:
+#         print("BUZZ")
+# else:
+#     print(broj)
+
+# ----------------------------------------------------------------------------------------------
