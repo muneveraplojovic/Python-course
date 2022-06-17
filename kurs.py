@@ -332,15 +332,19 @@
 # ------------------------------------
 # uneti br putem terminala, 3-fizz, 5-buzz, 3,5-fizzbuzz, ukoliko nije deljiv ispise samo taj broj
 
-broj=int(input("Unesite neki broj: "))
+# broj=int(input("Unesite neki broj: "))
 
-if broj%3==0 and broj%5==0:
-        print ("FIZZBUZZ")
-elif broj%3==0:
-    print("FIZZ")
-elif broj%5==0:
-        print("BUZZ")
-else:
-    print(broj)
+# if broj%3==0 and broj%5==0:
+#         print ("FIZZBUZZ")
+# elif broj%3==0:
+#     print("FIZZ")
+# elif broj%5==0:
+#         print("BUZZ")
+# else:
+#     print(broj)
 
 # ----------------------------------------------------------------------------------------------
+
+# len replace for x in dlvk: upper lower[ : :-1]
+
+#-----------------------------------------------------------------------------------------------
