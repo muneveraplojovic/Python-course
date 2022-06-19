@@ -345,6 +345,68 @@
 
 # ----------------------------------------------------------------------------------------------
 
-# len replace for x in dlvk: upper lower[ : :-1]
+# len replace  upper lower[ : :-1]
 
 #-----------------------------------------------------------------------------------------------
+#pocetna krajnja vrednost
+#i nam je kao brojac broji br ponavljanja
+#for i in range(1,10,2)
+
+# for i in range(10):
+#     print("cao")
+# #---------------------
+# for i in range(1,10):
+#     print(i)
+# #--------------------
+# for i in range(10,1,-1):
+#     print(i)
+#ispisuje unazad
+#--------------------
+
+# Ispisati brojeve od 1 do 100, ali samo parne brojeve
+
+# for i in range(0,101,2):
+#     print(i)
+#for i in range(1,100):
+#   if i%2==0:
+# print(i)
+
+#----------------------
+
+#prolazak kroz stringove i reci
+# rec="pajton"
+# for i in rec:
+#     print(i)
+#----------------------
+# rec="pajton"
+# for i in range(len(rec)):
+    # print(rec[i])  
+    # print(i)
+#----------------------
+
+# Napisati program koji ce da ispise zbir sumu prvih 100 brojeva
+# sum = 0. for i in range(1, 101): sum = sum + i. print(sum) ...
+
+# sum=0
+# for i in range(1, 101):
+#     sum+=i
+# print(sum)
+    
+#----------------------
+
+# faktorijal unetog broja 
+# 4!=4*3*2*1
+
+# broj= int(input("Unesite neki broj: "))
+# fakt=1
+# for i in range(broj,0,-1):
+#     fakt*=i
+# print(fakt)
+
+# --------------------------------
+# zbir kvadrata i kvadrat zbira
+
+
+
+
+
