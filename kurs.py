@@ -406,14 +406,30 @@
 # --------------------------------
 # zbir kvadrata i kvadrat zbira
 
-zbir_kvadrata=0
-kvadrat_zbira=0
+# zbir_kvadrata=0
+# kvadrat_zbira=0
 
-for i in range(1,101):
-    kvadrat_zbira+=i
-    zbir_kvadrata+=i**2
-print(zbir_kvadrata**2-kvadrat_zbira)
+# for i in range(1,101):
+#     kvadrat_zbira+=i
+#     zbir_kvadrata+=i**2
+# print(zbir_kvadrata**2-kvadrat_zbira)
+# -------------------------------------------------------------------------------
 
+# for i in range(1,51):
+#     if i%3==0 and i%5==0:
+#         print("fizzbuzz")
+#     elif i%3==0:
+#         print("fizz")
+#     elif i%5==0:
+#         print("buzz")
+#     else:
+#         print(i)
+# ------------------------------
+# ispisati sve kvadrate brojeva od 1 do n
 
+# broj=int(input("Unesite broj: "))
 
+# for i in range(1,broj):
+#     print("Kvadrat broja ", i, "je ", i**2)
 
+# -------------------------------------------------------------------------------
