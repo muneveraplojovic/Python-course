@@ -406,6 +406,13 @@
 # --------------------------------
 # zbir kvadrata i kvadrat zbira
 
+zbir_kvadrata=0
+kvadrat_zbira=0
+
+for i in range(1,101):
+    kvadrat_zbira+=i
+    zbir_kvadrata+=i**2
+print(zbir_kvadrata**2-kvadrat_zbira)
 
 
 
