@@ -472,4 +472,32 @@
 #     if i%3==0 or i%5==0:
 #         n+=i
 # print(n)
+# # --------------------------------------------------------------------------------------------------------
+# [ : : ]-bice na testu
+
+# n=0
+# for i in range(1,1001):
+#     n=n+i**i
+# print(str(n)[-10::1])
 # ---------------------------------
+
+
+# broj=int(input("Unesite broj: "))
+# sum=0
+
+# for i in str(broj):
+#     sum+=int(i)
+# print(sum)
+    
+# ----------------------------------------
+
+# continue-preskace ako je neki br jednak nekom br
+# break-do tu radi for ptlja
+
+# projcentureler
+
+
+
+
+
+
