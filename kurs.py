@@ -112,7 +112,7 @@
 
 # print((broj1+broj2)/broj3)
 # skola="gimnazija"
-# print(skola[2 : ])
+# print(skola[-5 ::-1 ])
 # # prva vrednost se racuna a zadnja se ne racuna
 
 # print(skola[2: :])
@@ -373,7 +373,7 @@
 
 #----------------------
 
-#prolazak kroz stringove i reci
+# #prolazak kroz stringove i reci
 # rec="pajton"
 # for i in rec:
 #     print(i)
@@ -456,8 +456,8 @@
 # ------------------------------------
 
 # for i in range(1,10):
-#     for j in range(1,10):
-#         print(i,j)
+    # for j in range(1,10):
+        # print(i,j)
 # # -----------------------------------
 # print("----------------------------------------------------------------------")
 # for i in range(1,11):
@@ -499,12 +499,12 @@
 # for if else elif operatori and or not [::]
 
 
-# for a in range(1,1000):
-#     for b  in range(1,1000):
-#         for c in range(1,1000):
-#             if a<b<c and a**2+b**2==c**2 and a+b+c==1000:
-#                 print(a*b*c)
-#                 break
+for a in range(1,1000):
+    for b  in range(1,1000):
+        for c in range(1,1000):
+            if a<b<c and a**2+b**2==c**2 and a+b+c==1000:
+                print(a*b*c)
+                break
 # --------------------------------------------------------------------------------------------
 
 
