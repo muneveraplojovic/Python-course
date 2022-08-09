@@ -1061,17 +1061,17 @@
 
 # ---------------------------------------------------------------
 
-dani=["mon", "tue", "wed", "thur", "fri"]
-indeksi=[1,3,4]
-res=[]
+# dani=["mon", "tue", "wed", "thur", "fri"]
+# indeksi=[1,3,4]
+# res=[]
 
-for i in indeksi:
-    res.append(nizDana[i])
+# for i in indeksi:
+#     res.append(nizDana[i])
     
 
-for i in range (len(dana)):
-    for j in indeksi:
-        if i==j:
-            res.append(niz[i])
+# for i in range (len(dana)):
+#     for j in indeksi:
+#         if i==j:
+#             res.append(niz[i])
 
-print(res)
+# print(res)
