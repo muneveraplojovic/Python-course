@@ -1077,3 +1077,42 @@
 # print(res)
 
 # ----------------------------------------------------------------
+# setovi su neodredjeni indeksima, taplovi (tuple) su odredjeni indeksima, type
+
+# x= ("apple", "cherry", "banana")
+# y=list(x)
+# y[1]= "kiwi"
+# x=tuple(y)
+# print(x)
+
+# -----------------------
+
+
+# x= ("apple", "cherry", "banana")
+# y=list(x)
+# y.append("watermalon")
+# x=tuple(y)
+# print(x)
+
+# ---------------------------
+
+# dodavanje tuple-a na tuple
+# tuple nema metode kao lista, i indeksiran je u odnosu na setove
+
+# x= ("apple", "cherry", "banana")
+# y=("orange", "kiwi")
+# x+=y
+# print(x)
+
+# -----------------------------
+# fruits=("apple", "banana", "cherry")
+# (green, yellow, red)=fruits
+
+# print(green)
+# print(red)
+# print(yellow)
+
+# # unpack tuple
+# for petljom se prolazi na isti nacin kao kroz liste
+# -------------------------------
+
