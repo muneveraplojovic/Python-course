@@ -1116,3 +1116,13 @@
 # for petljom se prolazi na isti nacin kao kroz liste
 # -------------------------------
 
+x=(1,2,3,4,56,3,3,21,2,33,4,2,8,2,2)
+
+y=x.count(2)
+# count nam sluzi da izbrojimo koliko ima duplikata u nekom tuple-u
+print(y)
+
+fruits=("apple", "banana", "cherry", "watermelon")
+
+if "apple" in fruits:
+    print("nalazi se")
