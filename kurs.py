@@ -10,19 +10,20 @@
 
 
 # Operatori
-# -aritmeticki operatori (+-*/%**)
+# -aritmeticki operatori (+ - * / % **)
 #- relacijski-rezultat je uvek bool- (<><=>=, ==, != )
-# - operatori za dodelu vrednosti - += -=
+#- operatori za dodelu vrednosti - += -=
 
 #Logicki operator - true/false
 # and-true if both of them are true, za povezivanje izraza
 # or- true if either one of them are true, 
 # not - not true-false, not false-true, 
+# povezivanje nam se vrsi uz pomoc logickih operatora 
 
 # Metode stringa:
 # -indeksiranje 0123456789
 # -indeksiranje sa minusom -1 -2 -3 -4 -5 -6 -7 -8 -9 (zadnji broj ima indeks -1)
-# -replace
+# -replace - sluze za zamenjivanje
 # -length len - vraca druzinu stringa, ne funkcionise kod brojeva
 # -upper
 
@@ -1033,19 +1034,24 @@
 #             break
 # print(flag)
 
-
-
+# petlje - omogucavaju nam da odredjeni deo koda ponavljamo vise puta, odredjeni i neodredjeni put 
+# for petlje sa odredjenim br puta se ponavlja
+# while moze i odredjeni i neodredjei br puta da se ponavlja 
+# break - kod se prekida 
+# continiue - nastavlja
+# logicki operatori
+# liste-podrzavaju duplikate, changeable, 
 # while petlja - slabo se koristi 
 # append - ubacuje el na kra niza
 # remove
 # sort
 # extend
-# matrice
-# pop
-# clear
-# remove
-# # liste
-# count
+# matrice - liste u listama
+# pop - pod odredjenim indeksom
+# clear - ocistiti, izbrisati 
+# remove- vrednost uklanja
+# liste - varijable koje sadze niz karaktera 
+# count - izracuvana koliko elemenata ima u nizu, obicno su to duplikati 
 
 
 # niz=[2,3,7,6,2,4,9]
@@ -1087,7 +1093,6 @@
 
 # -----------------------
 
-
 # x= ("apple", "cherry", "banana")
 # y=list(x)
 # y.append("watermalon")
@@ -1126,5 +1131,94 @@
 
 # if "apple" in fruits:
 #     print("nalazi se")
+# -------------------------------------------------------------
+
+
 
 # -------------------------------------------------------------
+
+# dictionary - dict -  objekti  - slozeni tipovi podataka - sluze da se smesti vise vrednosti
+# imaju dve vrednosti:  1. key i 2. value
+
+# dict={
+#     "ime": "Maja",
+#     "prezime": "plojovic",
+#     "skola": True,
+#     "godine": 18
+# }
+
+# print(dict["ime"])
+# print(dict["godine"])
+# ordered (indeksirane su) , changable, ne podrzavaju duplikate, mozemo for petljom da prolazimo kroz dict
+# dict.value() - ispisuje vrednosti, dict.keys()-ispisuje kljucne reci, dict.items() - ispisuje sve redom
+# kad zelimo da dodamo neki novi key u recniku, stavljamo ime varijable [ i unutra pod navodnicima stavljamo ime key]
+# kad dodajemo novu vrednost samo napisemo dict["ime"]= "novo ime", i  ta rec ili ime se over ride-A 
+# update- uz pomoc ovoga dodajemo i key i value od jednom
+
+# for i in dict.values():
+# for i in dict.keys():
+
+    # print(i)
+    # print(dict[i])
+
+# recnik={
+#     "prezime": "plojovic",
+#     "skola": True,
+#     "godine": 18,
+#     "ime":"maja"
+# }
+# recnik["ime"]="osman"
+
+# print(x)
+# --------------------------------------------
+# copilot
+
+# nesto=dict()
+# n= int(input("Unesite neki broj: "))
+# for i in range(1,n+1):
+#     recnik[i]=i**2
+# print(recnik)
+
+# --------------------------------------------
+# ispisati vrednost od history = 80
+# sampleDict={
+#     "class": {
+#         "students": {
+#             "name":"petar",
+#              "marks":{
+#                 "math": 70,
+#                 "history":80
+#              }
+#         }
+#     }
+# }
+
+
+# print(sampleDict["class"]["students"]["marks"]["history"])
+
+# ---------------------------------------------
+
+# dict={
+#     "emp1":{
+#         "name":"petar", 
+#         "salary":500
+#     },
+
+#     "emp2":{
+#         "name":"marija",
+#          "salary":600
+#     },
+
+#     "emp3":{
+#         "name":"osman", 
+#         "salary":400
+#     }
+# }
+
+# for i in dict.values():
+#     if i["name"]=="marija":
+#         i["salary"]=1000
+#         break
+# print(dict)
+
+# ----------------------------------------------------------------------------
