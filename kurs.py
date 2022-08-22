@@ -1043,9 +1043,8 @@
 # liste-podrzavaju duplikate, changeable, 
 # while petlja - slabo se koristi 
 # append - ubacuje el na kra niza
-# remove
 # sort
-# extend
+# extend - produziti
 # matrice - liste u listama
 # pop - pod odredjenim indeksom
 # clear - ocistiti, izbrisati 
@@ -1081,36 +1080,48 @@
 #             res.append(niz[i])
 
 # print(res)
-
-# ----------------------------------------------------------------
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
 # setovi su neodredjeni indeksima, taplovi (tuple) su odredjeni indeksima, type
 
 # x= ("apple", "cherry", "banana")
-# y=list(x)
+
+# y = list(x)
+
+# y =   ["apple", "cherry", "banana"]
+#           0         1         2
+
 # y[1]= "kiwi"
-# x=tuple(y)
+
+# x = tuple(y)
+
 # print(x)
 
-# -----------------------
+# ----------------------------------------
 
 # x= ("apple", "cherry", "banana")
+
 # y=list(x)
+
 # y.append("watermalon")
+
 # x=tuple(y)
+
 # print(x)
 
-# ---------------------------
+# ---------------------------------------
 
 # dodavanje tuple-a na tuple
 # tuple nema metode kao lista, i indeksiran je u odnosu na setove
 
-# x= ("apple", "cherry", "banana")
+# x=("apple", "cherry", "banana")
 # y=("orange", "kiwi")
 # x+=y
 # print(x)
 
 # -----------------------------
 # fruits=("apple", "banana", "cherry")
+
 # (green, yellow, red)=fruits
 
 # print(green)
@@ -1147,8 +1158,10 @@
 #     "godine": 18
 # }
 
+
 # print(dict["ime"])
 # print(dict["godine"])
+
 # ordered (indeksirane su) , changable, ne podrzavaju duplikate, mozemo for petljom da prolazimo kroz dict
 # dict.value() - ispisuje vrednosti, dict.keys()-ispisuje kljucne reci, dict.items() - ispisuje sve redom
 # kad zelimo da dodamo neki novi key u recniku, stavljamo ime varijable [ i unutra pod navodnicima stavljamo ime key]
@@ -1169,15 +1182,22 @@
 # }
 # recnik["ime"]="osman"
 
-# print(x)
+# print(recnik)
 # --------------------------------------------
 # copilot
 
-# nesto=dict()
-# n= int(input("Unesite neki broj: "))
-# for i in range(1,n+1):
-#     recnik[i]=i**2
-# print(recnik)
+nesto = dict()
+
+n= int(input("Unesite neki broj: "))
+
+
+for i in range(1,n+1):
+
+    n[i]=i**2
+
+
+print(n)
+
 
 # --------------------------------------------
 # ispisati vrednost od history = 80
