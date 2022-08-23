@@ -1186,17 +1186,17 @@
 # --------------------------------------------
 # copilot
 
-nesto = dict()
+# nesto = dict()
 
-n= int(input("Unesite neki broj: "))
-
-
-for i in range(1,n+1):
-
-    n[i]=i**2
+# n= int(input("Unesite neki broj: "))
 
 
-print(n)
+# for i in range(1,n+1):
+
+#     n[i]=i**2
+
+
+# print(n)
 
 
 # --------------------------------------------
